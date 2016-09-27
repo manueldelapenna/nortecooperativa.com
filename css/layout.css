@@ -521,7 +521,7 @@ ul#nav li.active a { color: #E0483D; }
 #about .process-wrap .col-30 { width: 30%; }
 #about .process-wrap .col-40 { width: 40%; }
 
-#about .team-wrap { margin-bottom: 24px; }
+/*#about .team-wrap { margin-bottom: 24px; }*/
 #about .team-wrap .col { margin-bottom: 24px; }
 
 /* process */
