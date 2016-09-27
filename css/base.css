@@ -454,7 +454,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
    font: 16px/30px montserrat-bold, sans-serif;
-   background: #d76e77;
+   background: #3d4145;
    display: inline-block;
 	text-decoration: none;
    letter-spacing: 0;
@@ -482,7 +482,7 @@ button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover {
-   background: #3d4145;
+   background: #e0483d;
    color: #fff;
 }
 
