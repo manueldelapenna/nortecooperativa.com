@@ -24,7 +24,7 @@
    // main directions
    map = new GMaps({
       el: '#map', lat: -34.5550396, lng: -58.5241107, zoom: 15, zoomControl : true,
-      zoomControlOpt: { style : 'SMALL', position: 'TOP_LEFT' }, panControl : false, scrollwheel: false
+      zoomControlOpt: { style : 'SMALL', position: 'TOP_LEFT' }, panControl : true, scrollwheel: false, draggable: false
    });
 
    // add address markers
