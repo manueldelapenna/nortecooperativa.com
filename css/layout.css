@@ -185,6 +185,7 @@ ul#nav li.active a { color: #E0483D; }
 
 #intro {
    background: #111 url(../images/intro-bg.jpg) no-repeat center;
+   background-size: cover;
    overflow: hidden;
    height: 100%;
    min-height: 742px;
