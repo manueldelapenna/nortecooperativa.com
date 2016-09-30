@@ -510,7 +510,7 @@ ul#nav li.active a { color: #E0483D; }
 #about {
    background: #fff url(../images/patterns/grey.png);
    padding-top: 156px;
-   padding-bottom: 144px;
+   padding-bottom: 40px;
    color: #757575;
    text-align: justify;
 }
