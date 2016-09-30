@@ -26,10 +26,23 @@
       el: '#map', lat: -34.5550396, lng: -58.5241107, zoom: 15, zoomControl : true,
       zoomControlOpt: { style : 'SMALL', position: 'TOP_LEFT' }, panControl : true, scrollwheel: false, draggable: false
    });
+   
+   // Create infoWindow
+	var infoWindow = new google.maps.InfoWindow({
+		content: '<h6>COOPERATIVA DE TRABAJO NORTE LTDA</h6><p>Calle 23 Nº 2746 - Villa Zagala<br>Tel.(011) 4755-9497/7206 - ID 703*468</p>'
+	});
 
-   // add address markers
-   map.addMarker({ lat: -34.5550396, lng: -58.5241107, title: 'COOPERATIVA DE TRABAJO NORTE LTDA',
-   infoWindow: { content: '<h6>COOPERATIVA DE TRABAJO NORTE LTDA</h6><p>Calle 23 Nº 2746 - Villa Zagala<br>Tel.(011) 4755-9497/7206 - ID 703*468</p>' } });
+	// Create marker
+	var marker = new google.maps.Marker({
+		position: new google.maps.LatLng( -34.5550396,-58.5241107),
+		title: 'COOPERATIVA DE TRABAJO NORTE LTDA',
+		map: map.map,
+		infoWindow: infoWindow
+	});
+
+	// This opens the infoWindow
+	infoWindow.open(map, marker);
+
   
 
 /*----------------------------------------------------*/
