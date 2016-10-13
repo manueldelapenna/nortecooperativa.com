@@ -23,7 +23,7 @@
 
    // main directions
    map = new GMaps({
-      el: '#map', lat: -34.5550396, lng: -58.5241107, zoom: 15, zoomControl : true,
+      el: '#map', lat: -34.5549489, lng: -58.5242123, zoom: 15, zoomControl : true,
       zoomControlOpt: { style : 'SMALL', position: 'TOP_LEFT' }, panControl : true, scrollwheel: false, draggable: false
    });
    
