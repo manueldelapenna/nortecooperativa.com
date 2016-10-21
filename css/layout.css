@@ -420,7 +420,7 @@ ul#nav li.active a { color: #E0483D; }
    letter-spacing: 3px;
    cursor: pointer;
 }
-.reveal-modal a:hover {	color: #00CCCC; }
+.reveal-modal a:hover {	color: #bc4a3a; }
 .reveal-modal a.close-reveal-modal { margin-left: 28px; }
 
 
