@@ -1232,7 +1232,7 @@ footer .social-links li:first-child { margin-left: 0; }
    /* portfolio section
    -------------------------------------------------------------------- */
    #portfolio #portfolio-wrapper { margin-top: 12px; }
-   #portfolio #portfolio-wrapper .col { width: 33.33333%; }
+   #portfolio #portfolio-wrapper .col { width: 50%; }
 
    /* journal section
    -------------------------------------------------------------------- */
