@@ -21,7 +21,7 @@ if($_POST) {
 	}
 	// Check Message
 	if (strlen($contact_message) < 15) {
-		$error['message'] = "Por favot ingrese un mensaje, el mismo debe contener al menos 15 caracteres.";
+		$error['message'] = "Por favor ingrese un mensaje, el mismo debe contener al menos 15 caracteres.";
 	}
    // Subject
 	if ($subject == '') { $subject = "Sin Asunto"; }
